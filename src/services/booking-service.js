@@ -23,7 +23,6 @@ class BookingService{
 
             const bookingPayLoad={...data,totalCost};
 
-            console.log(bookingPayLoad);
 
             const booking=await this.bookingRepository.create(bookingPayLoad);
 
